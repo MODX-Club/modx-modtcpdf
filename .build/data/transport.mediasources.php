@@ -8,7 +8,7 @@ $mediaSources = array();
      'desc' => 'prop_file.basePath_desc',
      'type' => 'textfield',
      'options' => array(),
-     'value' => 'core/components/'.PKG_PATH.'/import/',
+     'value' => 'core/components/'.PKG_PATH.'/',
      'lexicon' => 'core:source',
    ),
    'baseUrl' => array(
@@ -16,15 +16,15 @@ $mediaSources = array();
      'desc' => 'prop_file.baseUrl_desc',
      'type' => 'textfield',
      'options' => array(),
-     'value' => 'core/components/'.PKG_PATH.'/import/',
+     'value' => 'core/components/'.PKG_PATH.'/',
      'lexicon' => 'core:source',
    ),
  );
 
  $mediaSource = $modx->newObject('sources.modMediaSource', array(
-  'name' => 'modImporter import files',
+  'name' => $pkgName.' core files',
   'class_key' => 'sources.modFileMediaSource',
-  'description' => 'Файлы импорта', //PKG_NAME_LOWER.' Core Source',
+  'description' => PKG_NAME_LOWER.' Core Source',
   'properties' => $params,
  ));
 

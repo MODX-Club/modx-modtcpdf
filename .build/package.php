@@ -1,6 +1,6 @@
 <?php
 
 $pkgName = 'modTCPDF';
-$pkgVersion = '0.1.0';
+$pkgVersion = '0.1.1';
 $pkgRelease = 'beta';
 $pkgDebug = false;
