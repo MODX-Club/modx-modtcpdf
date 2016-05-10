@@ -1,4 +1,8 @@
 ### modTCPDF
 
+#### 0.1.1
+* Bundler was added
+* Code reformat according to symfony scheme
+
 #### 0.1.0
 Hello world
